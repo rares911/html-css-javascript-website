@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Photo Gallery</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+ 
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"></a>
+	  <a class="logo">
+        <img src="images/logo.png"/></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+		<li><a href="photos.html">Photo Gallery</a></li>
+		<li><a href="support.html">Support</a></li>
+		<li><a href="contact.html">Sign Up</a></li>
+		
+		
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  
+
+  <div class="container2">
+    <section>
+		<div class="content">
+			
+
+			<ul class="gallery">
+				<li>
+				<figure><img src="images/s1.jpg" id="s1" alt=""></figure>
+					
+				</li>
+				<li>
+					<figure><img src="images/s2.jpg" id="s2" alt=""></figure>
+				</li>
+				<li>
+					<figure><img src="images/s3.jpg" id="s3" alt=""></figure>
+				</li>
+				<li>
+					<figure><img src="images/s4.jpg" id="s4" alt=""></figure>
+				</li>
+				<li>
+					<figure><img src="images/s5.jpg" id="s5" alt=""></figure>
+				</li>
+				<li>
+					<figure><img src="images/s6.jpg" id="s6" alt=""></figure>
+				</li>
+			</ul>
+
+		</div>
+	</section>
+  </div>
+
+<script>
+					var img1 = document.getElementById ('s1');
+					function first1() {
+						img1.src = 'images/today.png';
+					}
+					function second1() {
+						img1.src = 'images/s1.jpg';
+					}
+		
+					img1.addEventListener('mouseover', first1);
+					img1.addEventListener('mouseout', second1);
+					
+					
+					var img2 = document.getElementById ('s2');
+					function first2() {
+						img2.src = 'images/order.png';
+					}
+					function second2() {
+						img2.src = 'images/s2.jpg';
+					}
+		
+					img2.addEventListener('mouseover', first2);
+					img2.addEventListener('mouseout', second2);
+					
+					
+					var img3 = document.getElementById ('s3');
+					function first3() {
+						img3.src = 'images/and.png';
+					}
+					function second3() {
+						img3.src = 'images/s3.jpg';
+					}
+		
+					img3.addEventListener('mouseover', first3);
+					img3.addEventListener('mouseout', second3);
+
+
+
+					var img4 = document.getElementById ('s4');
+					function first4() {
+						img4.src = 'images/get.png';
+					}
+					function second4() {
+						img4.src = 'images/s4.jpg';
+					}
+		
+					img4.addEventListener('mouseover', first4);
+					img4.addEventListener('mouseout', second4);
+
+
+
+					var img5 = document.getElementById ('s5');
+					function first5() {
+						img5.src = 'images/10.png';
+					}
+					function second5() {
+						img5.src = 'images/s5.jpg';
+					}
+		
+					img5.addEventListener('mouseover', first5);
+					img5.addEventListener('mouseout', second5);
+
+
+
+					var img6 = document.getElementById ('s6');
+					function first6() {
+						img6.src = 'images/disc.png';
+					}
+					function second6() {
+						img6.src = 'images/s6.jpg';
+					}
+		
+					img6.addEventListener('mouseover', first6);
+					img6.addEventListener('mouseout', second6);
+
+					
+					
+					
+</script>
+  
+  
+  
+
+
+  
+   <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Credits</h5>
+          <p class="grey-text text-lighten-4">Cristea Rares</p>
+		  
+
+
+        </div>
+       
+        <div class="col l3 s12">
+          <h5 class="white-text">Social Media</h5>
+          <ul>
+            <li><a class="white-text" href="https://www.facebook.com/rwddd">Facebook</a></li>
+            <li><a class="white-text" href="https://www.instagram.com/raresrwdd">Instagram</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+   
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  
+
+  </body>
+</html>

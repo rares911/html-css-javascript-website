@@ -1,0 +1,99 @@
+body {
+	background-color: #CDCDCD;
+}
+
+.main,
+.tail {
+	background-color:#D91E1E;
+	text-align: center;
+	color:#F29E38;
+	padding:30px;
+	
+}
+.main a{
+	color:#F29E38;
+	font-size: 20px;
+}
+.main a:hover {
+	color:aqua;
+	text-decoration: none;
+}
+.content h1{
+	color:#205373;
+		text-decoration: underline;
+}
+.content h3{
+	color: #0B4FD9;
+		text-decoration: none;
+}
+.home strong{
+color: #D91E1E;
+}
+.content {
+	
+	padding:30px;
+}
+	.home{
+	color: #47433D;
+	font-style: none;
+	}
+	 .gallery {
+	border-radius: 10px;
+	list-style: none;
+}
+   .gallery li{
+		display: inline-block;
+	}
+		.gallery img{
+		height:300px;
+		width:400px;
+		border-radius:10px;
+		}
+		.content form input[type=text]{
+		height: 30px;
+		width: 230px;
+		}
+		.content form input, textarea{
+			background-color: #47433D;
+			border-radius: 10px;
+			border: none;			
+}
+        .content  input[type=submit]{
+		background-color: #D91E1E;
+		border-radius: 10px;
+		font-size: 20px;
+		padding: 10px 92px;
+		color: #F29E38;
+}
+     .content input[type=submit]:hover{
+	  color:aqua;
+}
+.about h3 {
+	background-color: #D91E1E;
+	border-radius: 10px;
+	border-width: 0px;
+	color: #F29E38;
+	padding: 25px;
+
+}
+
+.about img {
+display:block;
+margin: 0 auto;
+border: 1px solid #D91E1E;
+padding: 10px;
+}
+
+.about figcaption {
+color: #D91E1E;
+text-align: center;
+}
+
+.about p{
+color: #D91E1E;
+
+}
+.about li{
+color: #205373;
+}
+		
